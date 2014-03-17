@@ -1,0 +1,16 @@
+{
+	"manifest_version": 2,
+	"name": "Unity Overlay Scrollbars",
+	"version": "0.1.0",
+	"description": "Something clever should go here",
+	"author": "Pwnicorn",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"content_scripts": [{
+		"matches": ["<all_urls>"],
+		"css": ["scrollbars.css"]
+	}]
+}
